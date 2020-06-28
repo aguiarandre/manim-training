@@ -15,7 +15,7 @@
 
 # Documentation: Sample Codes
 
-1. [Simple Static Image](https://github.com/aguiarandre/manim-training/docs/static_text.md)
+1. [Simple Static Image](https://github.com/aguiarandre/manim-training/blob/master/docs/static_text.md)
 
 
 # References
