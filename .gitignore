@@ -5,6 +5,7 @@
 ### Custom ###
 media/
 */media/*
+*.mp4
 
 
 ### JupyterNotebooks ###
