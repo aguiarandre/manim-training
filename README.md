@@ -1,7 +1,7 @@
 <h1 align='center'>:boom: manim-training :boom:</h1>
 
 <p align='center'> Training manim-lib. An interface to develop high quality visualizations, specially for teaching.</p>
-<p align='center'><img src="/preview/rotation.gif" width="50%"/> </p>
+<p align='center'><img src="/previews/rotation.gif" width="50%"/> </p>
 
 
 # Screenshots 
@@ -30,7 +30,7 @@ class StaticImage(Scene):
 		self.add(text)
 ``` 
 After running `manim filename.py StaticImage -ps`, you'll obtain the following result:
-<p align='center'><img src="/preview/text." width="50%"/> </p>
+<p align='left'><img src="/previews/test.png" width="50%"/> </p>
 
 
 
