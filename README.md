@@ -16,6 +16,7 @@
 # Documentation: Sample Codes
 
 1. [Simple Static Image](https://github.com/aguiarandre/manim-training/blob/master/docs/static_text.md)
+1. [Shape Motions: `Transform` Behavior](https://github.com/aguiarandre/manim-training/blob/master/docs/shape_motions.md)
 
 
 # References
