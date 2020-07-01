@@ -19,6 +19,7 @@
 1. [Shape Motions: `Transform` Behavior](https://github.com/aguiarandre/manim-training/blob/master/docs/shape_motions.md)
 
 
-# References
+# Acknowledgments: 
 
-> TODO
+> Rohit Malhotra [documentation:](https://github.com/malhotra5/Manim-Tutorial)
+> Todd Zimmerman [documentation:](https://talkingphysics.wordpress.com/2019/01/08/getting-started-animating-with-manim-and-python-3-7/)
