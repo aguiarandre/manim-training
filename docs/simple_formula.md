@@ -2,6 +2,8 @@ Latex Formulas can be written as TextMobjects. Some important points:
 - The latex syntax remains, i.e., equations should be written within $ or $$
 - Every code that has a backlash has to be escaped with another backlash, i.e., `\frac{a}{b}` should be `\\frac{a}{b}` OR one can use python's `string literals`, i.e., strings should be written as `r'$\frac{a}{b}$'`{.python}
 
+NOTE: Please pay attention that there's a class named `TextMobject` and another one called `TexMobject` (without the middle `t`). The second one is able to fragment Latex formulas, which you'll better understand if you check the topics in `arrays`.
+
 See the example below:
 
 ```python
@@ -50,5 +52,5 @@ class SimpleFormula(Scene):
         self.add(formula3); self.wait(2);
 ```
 
-> After running `manim filename.py SimpleFormula -ps`, you'll obtain the following result:
+> After running `manim filename.py SimpleFormula -pl`, you'll obtain the following result:
 <p align='center'><img src="../previews/simple_formula.gif" width="50%"/> </p>
