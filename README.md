@@ -20,6 +20,8 @@
 3. [`TexMobject`: Simple Latex Formula](https://github.com/aguiarandre/manim-training/blob/master/docs/simple_formula.md)
 4. [`TexMobject`: Formulas as Arrays](https://github.com/aguiarandre/manim-training/blob/master/docs/text_array.md)
 5. [`VGroup`: Grouped Arrays](https://github.com/aguiarandre/manim-training/blob/master/docs/grouped_arrays.md)
+6. [`Cross`: Applying a Cross Symbol](https://github.com/aguiarandre/manim-training/blob/master/docs/cross.md)
+7. [`Cancel`: Applying a Cancel Symbol](https://github.com/aguiarandre/manim-training/blob/master/docs/cancel.md)
 
 
 # Acknowledgments: 
