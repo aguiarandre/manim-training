@@ -26,4 +26,4 @@ class GroupCross(Scene):
 ```
 
 After running `manim filename.py -pl`, you'll obtain the following result (which was converted to gif using [this bash script](https://github.com/aguiarandre/manim-training/blob/master/makegif.sh)):
-<p align='left'><img src="../previews/cross.gif" width="50%"/> </p>
+<p align='center'><img src="../previews/cross.gif" width="50%"/> </p>

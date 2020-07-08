@@ -56,7 +56,7 @@ class CancelGroup(Scene):
         fraction = VGroup(formula[1], formula[2])
         
         # denominator tends to infinity.
-        cancel = CancelV2(formula[2], 
+        cancel = Cancel(formula[2], 
                         texmob=TexMobject('\\infty'), 
                         scale=3, 
                         text_scale=0.5)
@@ -68,6 +68,6 @@ class CancelGroup(Scene):
         
         self.remove(cancel)
         # cancel the whole fraction, tends to zero
-        cancel = CancelV2(fraction, texmob=TexMobject('0'))
+        cancel = Cancel(fraction, texmob=TexMobject('0'))
         self.play(ShowCreation(cancel))
         

@@ -1,6 +1,6 @@
 One natural step for mathematical equations is to cancel terms. Cancelling a term is pretty similar to `crossing` a term (which we've seen in [cross.md](https://github.com/aguiarandre/manim-training/blob/master/docs/cross.md)), however, there's no `Cancel` class (yet). However, we can create a new `Cancel` class using the same idea as the `Cross` class.
 
-You can create your own Mobject by creating a class an inheriting the object you want explore. In our case, we can inherit from `VGroup` since we want to encapsulate any kind of formulas, TexMobjects, and so on.
+You can create your own Mobject by creating a class an inheriting the object you want explore. In our case, we can inherit from `VGroup` since we want to encapsulate any kind of formulas, TexMobjects, and so on. In this implementation, you __can__ specify some kwargs (keyword arguments) such as the arrow `stroke_width`, `scale` and the text `text_scale` that helps you control visibility.
 
 Creating your own Mobject is really helpfull. You may start to create your own objects that encapsulates functionalities you are specifically interested in.
 
@@ -79,4 +79,4 @@ class CancelGroup(Scene):
 ```
 
 After running `manim filename.py -pl`, you'll obtain the following result (which was converted to gif using [this bash script](https://github.com/aguiarandre/manim-training/blob/master/makegif.sh)):
-<p align='left'><img src="../previews/cross.gif" width="50%"/> </p>
+<p align='center'><img src="../previews/cancel.gif" width="50%"/> </p>
